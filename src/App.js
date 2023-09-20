@@ -8,7 +8,7 @@ import Home from "./pages/Home"
 import Products  from "./pages/Products"
 import MyAccount  from "./pages/MyAccount"
 import { useState } from 'react';
-
+import SignIn from './pages/Login'
 
 function App() {
   const [session, setSession] = useState(null)
@@ -28,6 +28,7 @@ function App() {
               <MyAccount onLogout={handleSetSession} user={session} />
             </ProtectedRoute>
           } />
+        <Route path='/login' element={<SignIn onLogin={handleSetSession} />} />
       </Routes>
    </BrowserRouter>
   );
