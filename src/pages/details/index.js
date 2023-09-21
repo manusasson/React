@@ -38,7 +38,8 @@ const Detail = () => {
                 </picture>
                 <div className="flex flex-col gap-4 py-8">
                    <h3 className="font-bold text-4xl">{product?.title}</h3>
-                   <p>{product?.description}</p>
+                   <p>{product? "Cuadro: " + product.equipo: ""}</p>
+                   <p>{product? "Nacionalidad: " + product.pais: ""}</p>
                    <span className="bg-indigo-700 text-white self-start py-0.5 px-3 rounded-md text-sm">{product?.category}</span>
                    <p><span className="text-yellow-600">{getRate(product?.rating?.rate)}</span> / {product?.rating?.count} reviews</p>
                    <strong className="mb-4">${product?.price}</strong>

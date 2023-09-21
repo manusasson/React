@@ -19,7 +19,7 @@ const products = [
     valoracion: 93,
     posicion: "Delantero",
     pais: "Argentina",
-    image: "assets/img/messi.jpg",
+    image: 'https://i.pinimg.com/originals/87/94/1a/87941ac819e41e54e5eb04fa4b8ccce1.jpg',
     rating: {
       rate: 5,
       count: 120
@@ -33,7 +33,7 @@ const products = [
     valoracion: 92,
     posicion: "Delantero",
     pais: "Portugal",
-    image: "ruta/a/la/imagen2.jpg",
+    image: "https://i.pinimg.com/originals/a4/c9/8b/a4c98b2d9e3053fb5972e89caf43e3d5.jpg",
     rating: {
       rate: 4.9,
       count: 12
@@ -47,7 +47,7 @@ const products = [
     valoracion: 91,
     posicion: "Delantero",
     pais: "Brasil",
-    image: "ruta/a/la/imagen3.jpg",
+    image: "https://i.pinimg.com/originals/25/d7/5a/25d75a163e0f299765006da99ecd8b35.jpg",
     rating: {
       rate: 4,
       count: 120
@@ -55,13 +55,13 @@ const products = [
   },
   {
     id: 4,
-    title: "Kylian Mbappé",
+    title: "Armando Maradona",
     price: 192,
-    equipo: "Paris Saint-Germain",
+    equipo: "Napoli",
     valoracion: 90,
     posicion: "Delantero",
-    pais: "Francia",
-    image: "ruta/a/la/imagen4.jpg",
+    pais: "Argentino",
+    image: "https://i.pinimg.com/originals/d6/0f/07/d60f07850cf61499717f5b7a868525b7.jpg",
     rating: {
       rate: 4.8,
       count: 200
@@ -75,7 +75,7 @@ const products = [
     valoracion: 91,
     posicion: "Centrocampista",
     pais: "Bélgica",
-    image: "ruta/a/la/imagen5.jpg",
+    image: "https://i.pinimg.com/originals/03/56/ae/0356ae7efeeeef4f9ba1548b276a5b35.jpg",
     rating: {
       rate: 4.2,
       count: 13
@@ -83,13 +83,13 @@ const products = [
   },
   {
     id: 6,
-    title: "Sergio Ramos",
+    title: "Sterling",
     price: 140,
-    equipo: "Paris Saint-Germain",
+    equipo: "Manchester City",
     valoracion: 89,
-    posicion: "Defensa",
-    pais: "España",
-    image: "ruta/a/la/imagen6.jpg",
+    posicion: "Delantero",
+    pais: "Inglaterra",
+    image: "https://i.pinimg.com/originals/e0/ff/07/e0ff0751ae008a5a1a0aa86e73c93550.jpg",
     rating: {
       rate: 3.9,
       count: 20
@@ -103,7 +103,7 @@ const products = [
     valoracion: 92,
     posicion: "Delantero",
     pais: "Polonia",
-    image: "ruta/a/la/imagen7.jpg",
+    image: "https://i.pinimg.com/originals/37/d7/c2/37d7c26dd6be58af5d8928299ab9d898.jpg",
     rating: {
       rate: 4.5,
       count: 43
@@ -121,35 +121,6 @@ const products = [
     rating: {
       rate: 5,
       count: 120
-    }
-  },
-  {
-    id: 9,
-    title: "Luka Modric",
-    price: 500,
-    equipo: "Real Madrid",
-    valoracion: 89,
-    posicion: "Centrocampista",
-    pais: "Croacia",
-    image: "ruta/a/la/imagen9.jpg",
-    rating: {
-      rate: 4.9,
-      count: 1020
-    }
-  },
-
-  {
-    id: 10,
-    title: "Harry Kane",
-    price: 400,
-    equipo: "Tottenham Hotspur",
-    valoracion: 89,
-    posicion: "Delantero",
-    pais: "Inglaterra",
-    image: "ruta/a/la/imagen10.jpg",
-    rating: {
-      rate: 4,
-      count: 8
     }
   }
   
