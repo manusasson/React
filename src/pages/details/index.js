@@ -34,7 +34,7 @@ const Detail = () => {
             </Link>
             <article className="flex flex-col rounded-md overflow-hidden p-2">
                 <picture className="w-[200px] min-w-[200px] max-w-[200px] m-auto">
-                <img src={product?.image} alt={product?.title}/>
+                <img src={product?.image} alt={product?.title} width="200px" height="200px"/>
                 </picture>
                 <div className="flex flex-col gap-4 py-8">
                    <h3 className="font-bold text-4xl">{product?.title}</h3>
