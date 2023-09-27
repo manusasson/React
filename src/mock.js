@@ -108,20 +108,6 @@ const products = [
       rate: 4.5,
       count: 43
     }
-  },
-  {
-    id: 8,
-    title: "Mohamed Salah",
-    price: 98,
-    equipo: "Liverpool",
-    valoracion: 90,
-    posicion: "Delantero",
-    pais: "Egipto",
-    image: "ruta/a/la/imagen8.jpg",
-    rating: {
-      rate: 5,
-      count: 120
-    }
   }
   
 

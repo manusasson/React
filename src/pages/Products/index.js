@@ -3,7 +3,7 @@ import { getProducts } from "../../mock"
 
 import { getRate } from "../../utils/getRate"
 import { Link } from 'react-router-dom'
-
+import '../../css/products.css'
 
 const Products = () => {
 
@@ -20,14 +20,14 @@ const Products = () => {
 
     if(loading) return <p className="text-2xl max-w-5xl m-auto font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-[#a64aff] text-center">Loading products ...</p>
 
-    return <section className="max-w-5xl m-auto">
+    return <section className="container">
         {products.map(({ id, title,
                     price,
                     category,
                     rating,
                     image}) => (
-            <article key={id} className="flex mb-4 border border-gray-200 shadow-sm rounded-md overflow-hidden p-2">
-                <picture className="border-r-2 pr-3 mr-3 w-[200px] min-w-[200px] max-w-[200px] flex flex-col justify-center items-center">
+            <article key={id} className="card">
+                <picture className="picture">
                 <img src={image} alt={title}/>
                 </picture>
                 <div className="flex flex-col gap-2 py-8">
