@@ -21,7 +21,7 @@ const ItemDetail = ({ item }) => {
     )
   }
 
-  const { image, title, description, rating, price, category, stock } = item
+  const { image, title, description, price, category, stock, pais, equipo, posicion } = item
 
   return (
     <article className='flex flex-col rounded-md overflow-hidden p-2 pb-8'>
@@ -32,7 +32,9 @@ const ItemDetail = ({ item }) => {
         <h3 className='font-bold text-4xl'>{title}</h3>
         <p>{description}</p>
         <span className='bg-indigo-700 text-white self-start py-0.5 px-3 rounded-md text-sm'>{category}</span>
-        {rating && <p><span className='text-yellow-600'>{getRate(rating?.rate)}</span> / {rating?.count} reviews</p>}
+        <p className='mb-4'>Nacionalidad: <strong>{pais}</strong></p>
+        <p className='mb-4'>Equipo Actual: <strong>{equipo}</strong></p>
+        <p className='mb-4'>Posicion: <strong>{posicion}</strong></p>
         <strong className='mb-4'>${price}</strong>
         <div className='flex justify-end w-full'>
           {quantityAdd > 0
