@@ -1,8 +1,8 @@
-import CartWidget from 'components/CartWidget'
-import { useAuth } from 'context/AuthProvider'
-import { useTheme } from 'context/ThemeProvider'
-import { logOut } from 'firebaseConfig/services/auth'
-import { LogoutIcon } from 'icons'
+import CartWidget from '../CartWidget/'
+import { useAuth } from '../../context/AuthProvider'
+import { useTheme } from '../../context/ThemeProvider'
+import { logOut } from '../../firebaseConfig/services/auth'
+import { LogoutIcon } from '../../icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {

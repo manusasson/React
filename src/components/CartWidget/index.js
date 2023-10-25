@@ -1,5 +1,5 @@
-import { useCart } from 'context/CartProvider'
-import { ShoppingCartIcon } from 'icons'
+import { useCart } from '../../context/CartProvider'
+import { ShoppingCartIcon } from '../../icons'
 import { Link } from 'react-router-dom'
 
 const CartWidget = () => {
