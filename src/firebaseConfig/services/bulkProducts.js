@@ -1,4 +1,4 @@
-import { PRODUCTS } from 'mock'
+import { PRODUCTS } from '../../mock'
 import { addItem } from './items'
 
 export const uploadProducts = () => {

@@ -5,12 +5,13 @@ import { getStorage } from 'firebase/storage'
 
 // base de datos de produccion
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID
+  apiKey: "AIzaSyBz1QEA-pDJbhzqWPn41qISBSuIUDe6iaA",
+  authDomain: "cursoreactcoder-8e2fd.firebaseapp.com",
+  projectId: "cursoreactcoder-8e2fd",
+  storageBucket: "cursoreactcoder-8e2fd.appspot.com",
+  messagingSenderId: "916704211717",
+  appId: "1:916704211717:web:24389007b2c90c9698fd6c",
+  measurementId: "G-JE0J68GGN2"
 }
 
 // Initialize Firebase

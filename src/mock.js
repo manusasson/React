@@ -1,4 +1,4 @@
-const products = [
+ export const PRODUCTS = [
     // {
     //   id: 12,
     //   title: 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
@@ -116,7 +116,7 @@ const products = [
   export const getProducts = () => {
     return new Promise((resolve) => {
       setTimeout(() => {
-        return resolve(products)
+        return resolve(PRODUCTS)
       }, 10)
     })
   }
@@ -125,8 +125,8 @@ const products = [
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         console.log({products, id})
-        const product = products.find((p) => p.id === id)
-        if (product) return resolve(product)
+        const PRODUCTS = PRODUCTS.find((p) => p.id === id)
+        if (PRODUCTS) return resolve(PRODUCTS)
         // eslint-disable-next-line prefer-promise-reject-errors
         return reject({ error: 'No encontrado' })
       }, 10)
