@@ -1,4 +1,4 @@
-import { NotFoundIcon } from 'icons'
+import { NotFoundIcon } from '../../icons'
 import { Link } from 'react-router-dom'
 
 // const arr = ['diego', 'maria', 'juan']

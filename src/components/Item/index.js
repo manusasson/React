@@ -1,4 +1,4 @@
-import { LinkIcon } from 'icons'
+import { LinkIcon } from '../../icons'
 import { memo } from 'react'
 import { Link } from 'react-router-dom'
 

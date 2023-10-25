@@ -3,7 +3,7 @@ import { useCart } from '../../context/CartProvider'
 import { LeftIcon, ShoppingCartIcon } from '../../icons'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getRate } from 'utils/getRate'
+import { getRate } from '../../utils/getRate'
 
 const ItemDetail = ({ item }) => {
   const [quantityAdd, setQuantityAdd] = useState(0)

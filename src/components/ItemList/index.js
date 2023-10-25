@@ -1,7 +1,7 @@
-import ItemSkeleton from 'components/Item/ItemSkeleton'
+import ItemSkeleton from '../Item/ItemSkeleton'
 import Item from '../Item'
 import { Link } from 'react-router-dom'
-import { EmptyIcon } from 'icons'
+import { EmptyIcon } from '../../icons'
 import { memo } from 'react'
 
 const ItemList = memo(({ products, loading }) => {

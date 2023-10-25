@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { getCategories } from 'firebaseConfig/services/categories'
-import { useCategories } from 'hooks/useCategories'
+import { getCategories } from '../../firebaseConfig/services/categories'
+import { useCategories } from '../../hooks/useCategories'
 
 const Filters = () => {
   const { categories, getCategories } = useCategories()

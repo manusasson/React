@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import { ReactComponent as LeftIcon } from 'icons/left.svg'
+import { ReactComponent as LeftIcon } from '../../icons/left.svg'
 import { useParams, Link } from 'react-router-dom'
 import ItemDetail from './ItemDetail'
 import Loading from './Loading'
-import { getItem } from 'firebaseConfig/services/items'
+import { getItem } from '../../firebaseConfig/services/items'
 
 const Detail = () => {
   const [loading, setLoading] = useState(false)

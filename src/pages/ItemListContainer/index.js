@@ -1,6 +1,6 @@
-import Filters from 'components/Filters'
-import ItemList from 'components/ItemList'
-import { getItems } from 'firebaseConfig/services/items'
+import Filters from '../../components/Filters'
+import ItemList from '../../components/ItemList'
+import { getItems } from '../../firebaseConfig/services/items'
 
 import { useEffect, useMemo, useState } from 'react'
 import { useParams } from 'react-router-dom'

@@ -1,6 +1,6 @@
-import MyOrderList from 'components/MyOrderList'
-import { useAuth } from 'context/AuthProvider'
-import { getOrders } from 'firebaseConfig/services/orders'
+import MyOrderList from '../../components/MyOrderList'
+import { useAuth } from '../../context/AuthProvider'
+import { getOrders } from '../../firebaseConfig/services/orders'
 import { useEffect, useState } from 'react'
 
 const MyOrders = () => {

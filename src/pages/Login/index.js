@@ -1,5 +1,5 @@
-import { useAuth } from 'context/AuthProvider'
-import { signIn } from 'firebaseConfig/services/auth'
+import { useAuth } from '../../context/AuthProvider'
+import { signIn } from '../../firebaseConfig/services/auth'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
