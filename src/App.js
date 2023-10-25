@@ -44,9 +44,9 @@ function App () {
                   />
                   <Route
                     path='checkout' element={(
-                      <PrivateRoute>
+                      <PublicRoute>
                         <Checkout />
-                      </PrivateRoute>)}
+                      </PublicRoute>)}
                   />
                   <Route path='cart' element={(<Cart />)} />
                   <Route
