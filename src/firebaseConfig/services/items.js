@@ -1,5 +1,5 @@
 import { addDoc, collection, doc, getDoc, getDocs, query, updateDoc, where, deleteDoc } from 'firebase/firestore'
-import { db } from 'firebaseConfig/config'
+import { db } from '../config'
 
 export const getItem = (id) => {
   const item = doc(db, 'items', id)

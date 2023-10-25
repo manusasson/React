@@ -1,6 +1,6 @@
-import { useAuth } from 'context/AuthProvider'
-import { useCart } from 'context/CartProvider'
-import { TrashIcon } from 'icons'
+import { useAuth } from '../../context/AuthProvider'
+import { useCart } from '../../context/CartProvider'
+import { TrashIcon } from '../../icons'
 import { Link } from 'react-router-dom'
 
 const Cart = () => {

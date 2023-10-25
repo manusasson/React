@@ -124,7 +124,7 @@
   export const getProductById = (id) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        console.log({products, id})
+        console.log({PRODUCTS, id})
         const PRODUCTS = PRODUCTS.find((p) => p.id === id)
         if (PRODUCTS) return resolve(PRODUCTS)
         // eslint-disable-next-line prefer-promise-reject-errors

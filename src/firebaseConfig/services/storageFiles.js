@@ -1,5 +1,5 @@
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage'
-import { storage } from 'firebaseConfig/config'
+import { storage } from '../config'
 
 export const uploadFile = async (img) => {
   const storageRef = ref(storage, `images/${Date.now()}-${img.name}`)

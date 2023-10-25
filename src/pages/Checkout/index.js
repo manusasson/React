@@ -1,7 +1,7 @@
-import CheckoutForm from 'components/CheckoutForm'
-import { useAuth } from 'context/AuthProvider'
-import { useCart } from 'context/CartProvider'
-import { addOrder } from 'firebaseConfig/services/orders'
+import CheckoutForm from '../../components/CheckoutForm'
+import { useAuth } from '../../context/AuthProvider'
+import { useCart } from '../../context/CartProvider'
+import { addOrder } from '../../firebaseConfig/services/orders'
 import { useState } from 'react'
 import { toast } from 'react-toastify'
 

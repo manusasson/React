@@ -1,4 +1,4 @@
-import { getCategories } from 'firebaseConfig/services/categories'
+import { getCategories } from '../firebaseConfig/services/categories'
 import { useState, useCallback, useMemo } from 'react'
 
 // Custom hook

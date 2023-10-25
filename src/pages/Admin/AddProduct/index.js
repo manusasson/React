@@ -1,7 +1,7 @@
-import Input from 'components/Input'
-import { addItem, updateItem } from 'firebaseConfig/services/items'
-import { uploadFile } from 'firebaseConfig/services/storageFiles'
-import { useCategories } from 'hooks/useCategories'
+import Input from '../../../components/Input'
+import { addItem, updateItem } from '../../../firebaseConfig/services/items'
+import { uploadFile } from '../../../firebaseConfig/services/storageFiles'
+import { useCategories } from '../../../hooks/useCategories'
 import { useEffect, useState } from 'react'
 import { toast } from 'react-toastify'
 

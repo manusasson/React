@@ -1,4 +1,4 @@
-import { MinusIcon, PlusIcon, ShoppingCartIcon } from 'icons'
+import { MinusIcon, PlusIcon, ShoppingCartIcon } from '../../icons'
 import { useState } from 'react'
 
 const ItemCount = ({ stock, initial, onAdd }) => {

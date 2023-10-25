@@ -1,5 +1,5 @@
 import { addDoc, collection, documentId, getDocs, query, where, writeBatch } from 'firebase/firestore'
-import { db } from 'firebaseConfig/config'
+import { db } from '../config'
 import { getTimeStamp } from './utils'
 
 export const getOrders = async (userId) => {

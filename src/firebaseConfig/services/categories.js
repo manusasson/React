@@ -1,5 +1,5 @@
 import { collection, getDocs } from 'firebase/firestore'
-import { db } from 'firebaseConfig/config'
+import { db } from '../config'
 
 export const getCategories = async () => {
   const categories = collection(db, 'categories')
