@@ -1,6 +1,6 @@
 
 import './App.css';
-import{Navbar} from './components/NavBar' //importo un boton desde la carpeta button
+import NavBar from './components/Navbar' //importo un boton desde la carpeta button
 //import 'bootstrap/dist/css/bootstrap.min.css'; // Agrega esta línea para importar el CSS de Bootstrap
 import {BrowserRouter, Routes, Route}  from "react-router-dom"
 import ProtectedRoute from './ProtectedRoute';
@@ -19,7 +19,7 @@ function App() {
 
   return (
    <BrowserRouter>
-    <Navbar/>
+    <NavBar/>
       <Routes>
         <Route path='/' element ={<Home />} />
         <Route path='/products' element ={<Products />} />
